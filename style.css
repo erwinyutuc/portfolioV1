@@ -91,7 +91,10 @@ nav {
     flex-direction: column;
 }
 
-
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
 
 .about-me__info--container {
     display: flex; 
@@ -117,4 +120,13 @@ nav {
     padding: 0 16px;
 }
 
-/* testing */
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    height: 80vh;
+    width: 100%;
+}
